@@ -1,9 +1,9 @@
 
-# 😺 Kucing v0.1.0 🐾
+# 😺 Kucing v0.0.3 🐾
 
-Kucing is a lightweight interpreted programming language inspired by C, Python, and BASIC, with a feline twist.
+Kucing is a lightweight interpreted programming language inspired by C, Python, and BASIC.
 
-## 🚀 Features (v0.1.0)
+## 🚀 Features (v0.0.3)
 - Variable assignment with math
   ```kucing
   let x = 2 + 3;
@@ -61,7 +61,7 @@ Many great languages — including Python, Lua, and Kucing — are written in C 
 - Fine control over memory and flow
 - Direct access to C-style parsing and evaluation
 
-You’re not just using a new language — you’re standing on the shoulders of C giants. 🧱🐱
+
 
 ---
 
@@ -72,7 +72,7 @@ You’re not just using a new language — you’re standing on the shoulders of
 - Source file icon: 🐾
 - Terminal output splash:
   ```
-  😺 KUCING v0.1.0 🐾
+  😺 KUCING v0.0.3 🐾
   ```
 
 ---
@@ -84,7 +84,7 @@ More features coming soon! 🐈‍⬛
 
 ## 📣 Pronunciation
 
-**Kucing** is pronounced **"koo-ching"**, like the sound of a curious cat triggering a terminal command.
+**Kucing** is pronounced **"koo-ching"**.
 
 ---
 
