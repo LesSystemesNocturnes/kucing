@@ -1,9 +1,9 @@
 
-# 😺 Kucing v0.0.3 🐾
+# Kucing v0.0.3 🐾
 
 Kucing is a lightweight interpreted programming language inspired by C, Python, and BASIC.
 
-## 🚀 Features (v0.0.3)
+## Features (v0.0.3)
 - Variable assignment with math
   ```kucing
   let x = 2 + 3;
@@ -24,7 +24,7 @@ Kucing is a lightweight interpreted programming language inspired by C, Python, 
 - Conditional expressions (`if x > 2 { ... }`)
 - `for` loops with custom syntax: `for i from 0 to 5 step 1 { ... }`
 
-## ⚙️ Running Code
+## Running Code
 
 Compile:
 ```bash
@@ -68,11 +68,10 @@ Many great languages — including Python, Lua, and Kucing — are written in C 
 ## 📁 File Type & Branding
 
 - Source file extension: `.kc` (Kucing Code) 🐾
-- Interpreter mascot: 😺
 - Source file icon: 🐾
 - Terminal output splash:
   ```
-  😺 KUCING v0.0.3 🐾
+  KUCING v0.0.3 🐾
   ```
 
 ---
