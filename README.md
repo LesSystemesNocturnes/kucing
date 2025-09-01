@@ -99,4 +99,3 @@ Il démontre les boucles de base, l’impression et la structure de la syntaxe.
 
 ⸻
 
-Veux-tu que je reformule certains termes en style encore plus familier (p. ex. dire “print” → “écrire à l’écran” au lieu de “impression”), ou tu préfères garder le ton plus technique et proche du vocabulaire de doc officielle ?
