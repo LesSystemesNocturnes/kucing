@@ -1,98 +1,102 @@
+Bonjour!
 
-# Kucing v0.0.3 🐾
+⸻
 
-Kucing is a lightweight interpreted programming language inspired by C, Python, and BASIC.
+Kucing v0.0.3 🐾
 
-## Features (v0.0.3)
-- Variable assignment with math
-  ```kucing
-  let x = 2 + 3;
-  ```
-- Printing
-  ```kucing
-  print("Hello");
-  print(x);
-  ```
-- Function definition & call
-  ```kucing
-  function greet {
-      print("Meow!");
-  }
+Kucing est un langage de programmation interprété léger, inspiré de C, Python et BASIC.
 
-  greet();
-  ```
-- Conditional expressions (`if x > 2 { ... }`)
-- `for` loops with custom syntax: `for i from 0 to 5 step 1 { ... }`
+Fonctionnalités (v0.0.3)
+	•	Assignation de variables avec opérations mathématiques
 
-## Running Code
+let x = 2 + 3;
 
-Compile:
-```bash
+
+	•	Impression (affichage à l’écran)
+
+print("Bonjour");
+print(x);
+
+
+	•	Définition et appel de fonction
+
+function greet {
+    print("Miaou!");
+}
+
+greet();
+
+
+	•	Expressions conditionnelles (if x > 2 { ... })
+	•	Boucles for avec syntaxe personnalisée :
+for i from 0 to 5 step 1 { ... }
+
+Exécution du code
+
+Compilation :
+
 gcc src/*.c -Iinclude -o kucing
-```
 
-Run a `.kc` file:
-```bash
+Exécuter un fichier .kc :
+
 ./kucing hello.kc
-```
-
----
-
-## 🔄 How Kucing Compares
-
-| Feature        | C        | Python     | Kucing     |
-|----------------|----------|------------|------------|
-| Static typing  | Yes      | No         | No         |
-| Braces `{}`    | Yes      | No         | Yes        |
-| Semicolons     | Yes      | Optional   | Yes        |
-| Decl: `int x`  | Yes      | `x = 5`    | `let x = 5` |
-| Easy loops     | No       | Yes        | Yes        |
-| Function call  | `foo()`  | `foo()`    | `foo();`    |
-
----
-
-## 🧬 C Lineage
-
-Kucing is implemented in C, just like the original **Python interpreter (CPython)**.
-
-Many great languages — including Python, Lua, and Kucing — are written in C and interpret their own source syntax. This gives Kucing:
-
-- Fast, portable execution
-- Fine control over memory and flow
-- Direct access to C-style parsing and evaluation
 
 
+⸻
 
----
+🔄 Comparaison de Kucing
 
-## 📁 File Type & Branding
-
-- Source file extension: `.kc` (Kucing Code) 🐾
-- Source file icon: 🐾
-- Terminal output splash:
-  ```
-  KUCING v0.0.3 🐾
-  ```
-
----
-
-More features coming soon! 🐈‍⬛
+Fonction	C	Python	Kucing
+Typage statique	Oui	Non	Non
+Accolades {}	Oui	Non	Oui
+Points-virgules	Oui	Optionnel	Oui
+Décl. : int x	Oui	x = 5	let x = 5
+Boucles faciles	Non	Oui	Oui
+Appel de fonction	foo()	foo()	foo();
 
 
----
+⸻
 
-## 📣 Pronunciation
+🧬 Héritage C
 
-**Kucing** is pronounced **"koo-ching"**.
+Kucing est implémenté en C, tout comme l’interpréteur original de Python (CPython).
 
----
+Plusieurs grands langages — comme Python, Lua, et Kucing — sont écrits en C et interprètent leur propre syntaxe. Cela donne à Kucing :
+	•	Une exécution rapide et portable
+	•	Un contrôle fin sur la mémoire et le flot d’exécution
+	•	Un accès direct au style C pour l’analyse et l’évaluation
 
-## 🧪 Test File
+⸻
 
-Run the included `test.kc` file to try out Kucing's syntax and logic:
+📁 Types de fichiers et image de marque
+	•	Extension des fichiers source : .kc (Kucing Code) 🐾
+	•	Icône de fichier source : 🐾
+	•	Écran d’accueil dans le terminal :
 
-```bash
+KUCING v0.0.3 🐾
+
+
+
+⸻
+
+D’autres fonctionnalités s’en viennent bientôt ! 🐈‍⬛
+
+⸻
+
+📣 Prononciation
+
+Kucing se prononce « koo-ching ».
+
+⸻
+
+🧪 Fichier de test
+
+Exécutez le fichier test.kc inclus pour essayer la syntaxe et la logique de Kucing :
+
 ./kucing test.kc
-```
 
-It demonstrates basic loops, printing, and syntax structure.
+Il démontre les boucles de base, l’impression et la structure de la syntaxe.
+
+⸻
+
+Veux-tu que je reformule certains termes en style encore plus familier (p. ex. dire “print” → “écrire à l’écran” au lieu de “impression”), ou tu préfères garder le ton plus technique et proche du vocabulaire de doc officielle ?
